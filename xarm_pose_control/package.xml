@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>xarm_pose_control</name>
+  <version>0.0.0</version>
+  <description>Python node for sending poses to MoveIt</description>
+  <maintainer email="b9@example.com">b9</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>moveit_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
